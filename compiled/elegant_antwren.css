@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*** Правила Elegant Antwren ***/
+/* Правила скрытия */
+.custom_tag_elegantantwren {
+  transition: max-height linear 1s;
+  max-height: 3em;
+  overflow: hidden;
+}
+.custom_tag_elegantantwren:hover {
+  max-height: calc(10em + 100px);
+}
+.custom_tag_elegantantwren:hover .custom_tag_easubheader > p {
+  transition: padding linear 1s;
+}
+
+/* Правила отображения шапки */
+.custom_tag_elegantantwren {
+  background-color: #F3EEE6;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-areas: "header header" "subheader subheader" "left-subheader right-subheader" "left-body right-body";
+  grid-template-columns: 50%;
+}
+.custom_tag_elegantantwren .custom_tag_eaheader {
+  text-align: center;
+  font-weight: bolder;
+  grid-area: header;
+  background: #E6DFD4;
+  border-radius: 5px 5px 0 0;
+}
+.custom_tag_elegantantwren .custom_tag_easubheader {
+  text-align: center;
+  font-weight: lighter;
+  padding: 0;
+  grid-area: subheader;
+}
+.custom_tag_elegantantwren .custom_tag_eaheader > p {
+  padding: 0;
+}
+.custom_tag_elegantantwren .custom_tag_easubheader > p {
+  padding: 0;
+  padding-bottom: 8px;
+}
+
+/** Правила отображение подзаголовков контента */
+.custom_tag_elegantantwren {
+  /* Правила отображения контента */
+  /* Правила скроллбара */
+}
+.custom_tag_elegantantwren .custom_tag_ealeftsubheader {
+  grid-area: left-subheader;
+}
+.custom_tag_elegantantwren .custom_tag_earightsubheader {
+  grid-area: right-subheader;
+}
+.custom_tag_elegantantwren .custom_tag_ealeftsubheader,
+.custom_tag_elegantantwren .custom_tag_earightsubheader {
+  background-color: #E6DFD4;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.custom_tag_elegantantwren .custom_tag_ealeftsubheader > p,
+.custom_tag_elegantantwren .custom_tag_earightsubheader > p {
+  padding: 0;
+  text-align: center;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft {
+  grid-area: left-body;
+}
+.custom_tag_elegantantwren .custom_tag_earight {
+  grid-area: right-body;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft,
+.custom_tag_elegantantwren .custom_tag_earight {
+  height: 100px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: auto;
+  background-color: #FAF7F2;
+  transition: all linear 1s;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft::-webkit-scrollbar,
+.custom_tag_elegantantwren .custom_tag_earight::-webkit-scrollbar {
+  width: 20px;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft::-webkit-scrollbar-track,
+.custom_tag_elegantantwren .custom_tag_earight::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft::-webkit-scrollbar-thumb,
+.custom_tag_elegantantwren .custom_tag_earight::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 10px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+.custom_tag_elegantantwren .custom_tag_ealeft::-webkit-scrollbar-thumb:hover,
+.custom_tag_elegantantwren .custom_tag_earight::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}/*# sourceMappingURL=elegant_antwren.css.map */
