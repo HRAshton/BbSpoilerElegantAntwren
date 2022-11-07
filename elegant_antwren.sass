@@ -2,7 +2,7 @@
 $scroll-height: 100px
 
 /* Hidding rule */
-.custom_tag_elegantantwren
+.elegant-antwren
     transition: max-height linear 1s
     max-height: 3em
     overflow: hidden
@@ -10,11 +10,11 @@ $scroll-height: 100px
     &:hover
         max-height: calc(10em + $scroll-height)
         
-        .custom_tag_easubheader>p
+        .ea-subheader>p
             transition: padding linear 1s
 
 /* Rules of spoiler`s head */
-.custom_tag_elegantantwren
+.elegant-antwren
     background-color: #F3EEE6
     margin-bottom: 5px
     border-radius: 5px
@@ -23,55 +23,58 @@ $scroll-height: 100px
     grid-template-areas: 'header header' 'subheader subheader' 'left-subheader right-subheader' 'left-body right-body'
     grid-template-columns: 50%
 
-    .custom_tag_eaheader
+    .ea-header
         text-align: center
         font-weight: bolder
         grid-area: header
 
-        background: #E6DFD4
+        padding: 1px 0
         border-radius: 5px 5px 0 0
+        background: #E6DFD4
 
-    .custom_tag_easubheader
+    .ea-subheader
         text-align: center
         font-weight: lighter
-        padding: 0
         grid-area: subheader
+        padding: 0
+        padding-bottom: 4px
 
-    .custom_tag_eaheader>p
+    .ea-header>p
         padding: 0
 
-    .custom_tag_easubheader>p
+    .ea-subheader>p
         padding: 0
         padding-bottom: 8px
 
 /** Rules of content`s headers */
-.custom_tag_elegantantwren
-    .custom_tag_ealeftsubheader
+.elegant-antwren
+    .ea-left-subheader
         grid-area: left-subheader
 
-    .custom_tag_earightsubheader
+    .ea-right-subheader
         grid-area: right-subheader
 
-    .custom_tag_ealeftsubheader,
-    .custom_tag_earightsubheader
+    .ea-left-subheader,
+    .ea-right-subheader
         background-color: #E6DFD4
+        text-align: center
         border-radius: 10px
         margin: 0 5px
 
-    .custom_tag_ealeftsubheader>p,
-    .custom_tag_earightsubheader>p
+    .ea-left-subheader>p,
+    .ea-right-subheader>p
         padding: 0
         text-align: center
 
     /* Rules of content windows */
-    .custom_tag_ealeft
+    .ea-left
         grid-area: left-body
 
-    .custom_tag_earight
+    .ea-right
         grid-area: right-body
 
-    .custom_tag_ealeft,
-    .custom_tag_earight
+    .ea-left,
+    .ea-right
         height: $scroll-height
 
         margin: 5px
@@ -84,22 +87,22 @@ $scroll-height: 100px
         transition: all linear 1s
 
 /* Rules of scrollbars */
-.custom_tag_elegantantwren
-    .custom_tag_ealeft::-webkit-scrollbar,
-    .custom_tag_earight::-webkit-scrollbar
+.elegant-antwren
+    .ea-left::-webkit-scrollbar,
+    .ea-right::-webkit-scrollbar
         width: 20px
 
-    .custom_tag_ealeft::-webkit-scrollbar-track,
-    .custom_tag_earight::-webkit-scrollbar-track
+    .ea-left::-webkit-scrollbar-track,
+    .ea-right::-webkit-scrollbar-track
         background-color: transparent
 
-    .custom_tag_ealeft::-webkit-scrollbar-thumb,
-    .custom_tag_earight::-webkit-scrollbar-thumb
+    .ea-left::-webkit-scrollbar-thumb,
+    .ea-right::-webkit-scrollbar-thumb
         background-color: #d6dee1
         border-radius: 10px
         border: 6px solid transparent
         background-clip: content-box
 
-    .custom_tag_ealeft::-webkit-scrollbar-thumb:hover,
-    .custom_tag_earight::-webkit-scrollbar-thumb:hover
+    .ea-left::-webkit-scrollbar-thumb:hover,
+    .ea-right::-webkit-scrollbar-thumb:hover
         background-color: #a8bbbf
