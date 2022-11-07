@@ -92,13 +92,13 @@ To create the spoiler add style file and use ```<div class="elegant-antwren"``` 
 1. ea-left
 1. ea-right
 
-You can use this link for compiled styles: []
+You can use this link for compiled styles: [http://forumstatic.ru/files/001b/c1/44/79971.css]
 
 Example for the screenshot:
 
 ```
 [html]
-<link rel="stylesheet" type="text/css" href="//forumstatic.ru/files/001b/c1/44/55095.css" />
+<link rel="stylesheet" type="text/css" href="//forumstatic.ru/files/001b/c1/44/79971.css" />
 
 <div class="elegant-antwren">
 
