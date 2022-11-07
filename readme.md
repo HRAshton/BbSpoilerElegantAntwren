@@ -1,7 +1,7 @@
 # Styles for customized BB spoiler
 
 Example:
-![Screenshot](/../assets/Screenshot.png)
+![Screenshot](assets/Screenshot.png)
 
 ## Compiling
 
@@ -11,15 +11,15 @@ You may use any sass-to-css tool to create .css file. For example, [https://code
 
 1. Open the Administrative panel of a forum.
 
-1. Upload the .css file on the "Files" tab and copy the link.
+2. Upload the .css file on the "Files" tab and copy the link.
 
-1. Open the "Forms" tab and add following line to "HTML top" section:
+3. Open the "Forms" tab and add following line to "HTML top" section:
 ```
 <link rel="stylesheet" href="LINK_TO_CSS" />
 ```
 Where __LINK_TO_CSS__ is the link copied on the previous step.
 
-1. Add following link to "User`s bb-tags" section:
+4. Add following link to "User`s bb-tags" section:
 ```
 elegantantwren
 eaheader
@@ -30,7 +30,7 @@ ealeft
 earight
 ```
 
-1. Save changes.
+5. Save changes.
 
 ## Usage
 
